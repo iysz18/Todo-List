@@ -21,6 +21,10 @@ body {
     background: rgb(160, 160, 160);
 }
 
+.sidebar-content-wrapper * {
+    margin-block: 10px;
+}
+
 .logo-text {
     font-size: 25px;
     font-weight: 500;
