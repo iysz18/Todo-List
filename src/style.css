@@ -4,3 +4,24 @@ body {
     align-items: center;
     height: 100vh; 
 }
+
+.app-wrapper {
+    display: flex;
+    width: 90%;
+    height: 90%;
+    
+    /* for visualization */
+    outline: 1px solid black;
+}
+
+.sidebar {
+    width: 20%;
+    height: 100%;
+    background: rgb(160, 160, 160);
+}
+
+.todo-item-wrapper {
+    height: 100%;
+    width: 80%;
+    background-color: rgb(182, 182, 182);
+}
