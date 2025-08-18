@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "minTodos",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple todo list app as a project from theodinproject.com",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config config/webpack.prod.js",
