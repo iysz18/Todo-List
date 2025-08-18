@@ -24,3 +24,9 @@
     /* background: blue; */
     gap: 10px;
 }
+
+/* remove border and background color for uniform design */
+.sidebar-btn {
+    background: none;
+    border: none;
+}
