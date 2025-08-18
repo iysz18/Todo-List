@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/layout.css">
 </head>
 <body>
-    <!-- app wrapper which contains the sidebar and the todo-item content -->
-     <div class="app-wrapper">
-        <div class="sidebar">
-            <div class="sidebar-nav-wrapper">
-                <div class="logo-text">Todo Manager</div>
-                <button class="add-todo-btn">+ Add Todo</button>
-                
-                <nav class="sidebar-nav">
-                    <button class="nav-btn">Today</button>
-                    <button class="nav-btn">Upcoming</button>
-                </nav>
-            </div>
-        </div>
-        <div class="todo-wrapper"></div>
-    </div> 
+  <!-- app wrapper contains sidebar and todo content -->
+  <div class="app-wrapper">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h1>Sidebar</h1>
+      <div class="sidebar-components-wrapper">
+          <div class="sidebar-buttons">
+            <button class="sidebar-btn">+ Add Todo</button>
+            <button class="sidebar-btn">Today</button>
+            <button class="sidebar-btn">Upcoming</button>
+          </div>
+          
+          <div class="sidebar-projects"></div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="todo-wrapper">
+      <!-- later you’ll add your grid or todo list here -->
     </div>
+  </div>
 </body>
 </html>
