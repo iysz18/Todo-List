@@ -1,2 +1,4 @@
+// css imports
 import "normalize.css";
-import "./style.css";
+import "../css/main.css";
+import "../css/sidebar-components.css"
