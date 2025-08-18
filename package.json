@@ -1,5 +1,5 @@
 {
-  "name": "minTodos",
+  "name": "mintodos",
   "version": "1.0.0",
   "description": "simple todo list app as a project from theodinproject.com",
   "main": "index.js",
