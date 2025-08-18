@@ -1,2 +1,3 @@
+// css file imports
 import "normalize.css";
-import "./style.css";
+import "../css/main.css";
