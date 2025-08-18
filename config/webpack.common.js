@@ -18,8 +18,8 @@
             use: ["style-loader", "css-loader"],
         },
         {
-          test: /\.svg$/i,
-          use: 'svg-inline-loader',
+          test: /\.svg$/,
+          loader: 'svg-inline-loader',
         }
     ],
    },

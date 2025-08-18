@@ -36,3 +36,9 @@
   align-items: center;
   gap: 0.5rem; /* space between icon and text */
 }
+
+.btn-icon svg {
+  width: 1rem;
+  height: 1rem;
+  fill: red; /* inherits button text color */
+}
