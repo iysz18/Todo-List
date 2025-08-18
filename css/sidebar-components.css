@@ -30,3 +30,9 @@
     background: none;
     border: none;
 }
+
+.sidebar-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* space between icon and text */
+}
