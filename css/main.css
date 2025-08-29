@@ -13,26 +13,9 @@ body {
     height: 100%;
 }
 
-.sidebar {
-    width: 20%;
-    height: 100%;
-    background: rgb(160, 160, 160);
-}
-
 .todo-wrapper {
     height: 100%;
     width: 80%;
     background-color: rgb(182, 182, 182);
 }
 
-/* styling for the menu-items container */
-.menu-items {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-}
-
-.menu-items button {
-    width: 100px;
-}
