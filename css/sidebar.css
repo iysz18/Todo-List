@@ -27,3 +27,8 @@
     border: none;
     border-radius: 15px;
 }
+
+/* experimental settings: hover on button */
+.menu-items button:hover {
+    background: rgb(228, 110, 110);
+}
