@@ -1,0 +1,23 @@
+/* Each element and the sidebar itself get their
+   styling withing this file. Created to improve modualrity
+   and organization.
+ */
+
+/* sidebar wrappe */
+.sidebar {
+    width: 20%;
+    height: 100%;
+    background: rgb(160, 160, 160);
+}
+
+/* styling for the menu-items container */
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.menu-items button {
+    width: 100px;
+}
